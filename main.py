@@ -52,5 +52,6 @@ def menu():
         char = input("请选择: ")
     print('By!')
 
+
 if __name__ == "__main__":
     menu()
