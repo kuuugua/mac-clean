@@ -2,7 +2,7 @@ import os
 
 
 def clean(path):
-    print("before clean:",'=='*20)
+    print("before clean:",'==='*20)
     os.system("sudo du -sh " + path)
     os.system("sudo rm -rf " + path)
     print("after clean:")
